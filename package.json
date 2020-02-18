@@ -34,5 +34,8 @@
     "np": "^5.1.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "transpose-2d-array": "^1.0.4"
   }
 }
