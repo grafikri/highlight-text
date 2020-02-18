@@ -12,7 +12,7 @@ export interface Options {
   quotation?: QuotationType
 }
 
-export default class HighlightText {
+class HighlightText {
   public options: Options
 
   constructor(options?: Options) {
@@ -20,13 +20,13 @@ export default class HighlightText {
       language: "tr",
       tag: "span",
       className: "highlight-text",
-      quotation: QuotationType.Dobule
+      quotation: QuotationType.Single
     }
 
     this.options = { ...defaultOptions, ...options }
   }
 
-  replace(text: string, search: string) {
+  replaceWord(text: string, search: string) {
     const arr = this.findSearchIndexes(text, search)
     const { arrText, arrSearch } = arr
     const positions = this.detectIndexes(arrText, arrSearch)
@@ -128,3 +128,8 @@ export default class HighlightText {
     })
   }
 }
+
+export default HighlightText
+// to support commonjs default export
+module.exports = HighlightText
+module.exports.default = HighlightText
