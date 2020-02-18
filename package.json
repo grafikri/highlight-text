@@ -1,0 +1,38 @@
+{
+  "name": "highlight-text",
+  "version": "0.0.1",
+  "description": "You can find and replace any word/text with html tag",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "release": "np",
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/grafikri/highlight-text/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grafikri/highlight-text.git"
+  },
+  "keywords": [
+    "text",
+    "word",
+    "highlight"
+  ],
+  "author": "Serhan Coşkun",
+  "license": "ISC",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "jest": "^24.9.0",
+    "np": "^5.1.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}
