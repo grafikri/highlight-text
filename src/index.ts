@@ -1,6 +1,6 @@
 import transpose from "transpose-2d-array"
 
-export enum QuotationType {
+export const enum QuotationType {
   Single,
   Dobule
 }
