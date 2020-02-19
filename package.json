@@ -11,6 +11,10 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
   "bugs": {
     "url": "https://github.com/grafikri/highlight-text/issues"
   },
