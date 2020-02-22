@@ -2,7 +2,7 @@ import transpose from "transpose-2d-array"
 
 export const enum QuotationType {
   Single,
-  Dobule
+  Double
 }
 
 export interface Options {
