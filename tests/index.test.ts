@@ -1,4 +1,5 @@
-import HighlightText, { QuotationType } from "./index"
+import HighlightText from "../src/index"
+import { QuotationType } from "../src/enums"
 
 describe("Turkish", () => {
   test("case sensitivity", () => {
