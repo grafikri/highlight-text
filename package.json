@@ -11,10 +11,6 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node"
-  },
   "bugs": {
     "url": "https://github.com/grafikri/highlight-text/issues"
   },
@@ -38,7 +34,6 @@
     "@types/node": "^12.7.5",
     "jest": "^24.9.0",
     "np": "^5.1.0",
-    "ts-jest": "^24.3.0",
     "typescript": "^3.6.3"
   },
   "dependencies": {
