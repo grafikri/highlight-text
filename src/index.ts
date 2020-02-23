@@ -1,16 +1,6 @@
 import transpose from "transpose-2d-array"
-
-export const enum QuotationType {
-  Single,
-  Double
-}
-
-export interface Options {
-  language?: string
-  tag?: string
-  className?: string
-  quotation?: QuotationType
-}
+import { QuotationType } from "./enums"
+import { Options } from "./interfaces"
 
 class HighlightText {
   public options: Options
